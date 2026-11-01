@@ -60,4 +60,5 @@
 /etc/media_codecs_google_audio.xml
 /etc/media_codecs_performance.xml
 /etc/media_codecs_google_telephony.xml
+/etc/ofono/binder.conf
 /usr/share/ssu/features.d/adaptation-community.ini
