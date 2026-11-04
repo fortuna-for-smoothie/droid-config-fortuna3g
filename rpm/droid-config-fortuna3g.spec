@@ -15,8 +15,6 @@
 # bigger ratio if seen fit. Values are with 0.25 increments.
 %define pixel_ratio 1.0
 
-Obsoletes: ofono-configs-binder
-
 %include droid-configs-device/droid-configs.inc
 %include patterns/patterns-sailfish-device-adaptation-fortuna3g.inc
 %include patterns/patterns-sailfish-device-configuration-fortuna3g.inc
@@ -24,3 +22,4 @@ Obsoletes: ofono-configs-binder
 # IMPORTANT if you want to comment out any macros in your .spec, delete the %
 # sign, otherwise they will remain defined! E.g.:
 #define some_macro "I'll not be defined because I don't have % in front"
+
